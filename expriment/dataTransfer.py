@@ -29,12 +29,14 @@ def dataCopyTransfer():
         dataCopy = pd.concat([dataCopy,newData],ignore_index=True)
 
 
-    print("dataCopy**********:\n"+dataCopy)
+    print("dataCopy**********:")
+    print(dataCopy)
 
 def dataLabelPowerTransfer():
     data = dataProcess()
-    dataLabelPower = DataFrame()
-    print("dataLabelPower##########:\n" + dataLabelPower)
+    dataLabelPower = data
+    print("dataLabelPower##########:")
+    print(dataLabelPower)
 
 
 dataCopyTransfer()

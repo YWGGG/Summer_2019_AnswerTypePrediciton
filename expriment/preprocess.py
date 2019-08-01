@@ -40,7 +40,7 @@ def dataProcess():
     #print(dataQuestionDealt)
     #print(dataY)
     dataDealt = pd.concat([dataQuestionDealt, dataY], axis=1)
-    print(dataDealt)
+    #print(dataDealt)
     return dataDealt
 #dataDealt为词形还原后数据
 
